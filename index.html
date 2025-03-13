@@ -3,51 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IoT Threat Simulator Dashboard</title>
+    <title>Simple Web Project</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>IoT Threat Simulator Dashboard</h1>
+        <h1>Welcome to My Simple Web Project</h1>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Scan IoT Device</a></li>
-                <li><a href="#">Pentest</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
     
     <main>
-        <section class="device-info">
-            <h2>Device Information</h2>
-            <div id="device-list">
-                <!-- Devices will be listed here -->
-            </div>
+        <section class="intro">
+            <h2>About This Project</h2>
+            <p>This is a simple web project to show how basic HTML and CSS can be used to create a website.</p>
         </section>
         
-        <section class="scan-section">
-            <h2>Start Scan</h2>
-            <button id="scan-btn">Scan for Vulnerabilities</button>
+        <section class="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Simple and clean design</li>
+                <li>Responsive layout</li>
+                <li>Easy to use</li>
+            </ul>
         </section>
-        
-        <section class="result-section">
-            <h2>Scan Results</h2>
-            <div id="scan-results">
-                <!-- Scan results will appear here -->
-            </div>
+
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out!</p>
         </section>
     </main>
     
     <footer>
-        <p>IoT Threat Simulator - All rights reserved</p>
+        <p>&copy; 2025 Simple Web Project - All rights reserved</p>
     </footer>
-
-    <script>
-        // Basic JavaScript for Scan button
-        document.getElementById('scan-btn').addEventListener('click', function() {
-            alert("Scan Started");
-        });
-    </script>
 </body>
 </html>

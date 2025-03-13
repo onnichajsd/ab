@@ -7,19 +7,20 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #f9f9f9;
     color: #333;
 }
 
 header {
-    background-color: #3b5998;
+    background-color: #3498db;
     color: white;
-    padding: 15px 0;
+    padding: 20px;
     text-align: center;
 }
 
 header nav ul {
     list-style-type: none;
+    padding: 0;
 }
 
 header nav ul li {
@@ -39,7 +40,7 @@ main {
 }
 
 section {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 h2 {
@@ -47,29 +48,18 @@ h2 {
     color: #333;
 }
 
-#device-list {
-    padding: 10px;
-    border: 1px solid #ddd;
-    margin-top: 10px;
+ul {
+    list-style-type: none;
 }
 
-#scan-btn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-#scan-btn:hover {
-    background-color: #45a049;
+ul li {
+    padding: 5px 0;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #3b5998;
+    background-color: #3498db;
     color: white;
     position: fixed;
     width: 100%;
