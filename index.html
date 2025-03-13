@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Threat Simulator Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>IoT Threat Simulator Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Scan IoT Device</a></li>
+                <li><a href="#">Pentest</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="device-info">
+            <h2>Device Information</h2>
+            <div id="device-list">
+                <!-- Devices will be listed here -->
+            </div>
+        </section>
+        
+        <section class="scan-section">
+            <h2>Start Scan</h2>
+            <button id="scan-btn">Scan for Vulnerabilities</button>
+        </section>
+        
+        <section class="result-section">
+            <h2>Scan Results</h2>
+            <div id="scan-results">
+                <!-- Scan results will appear here -->
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>IoT Threat Simulator - All rights reserved</p>
+    </footer>
+
+    <script>
+        // Basic JavaScript for Scan button
+        document.getElementById('scan-btn').addEventListener('click', function() {
+            alert("Scan Started");
+        });
+    </script>
+</body>
+</html>
