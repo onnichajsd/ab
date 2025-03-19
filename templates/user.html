@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penetration Testing for Smart Home IoT</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+</head>
+<body>
+    <header id="img">
+        <img src="{{ url_for('static', filename='images/banana.png') }}" alt="Banana Logo" width="70" height="70">
+        <div id="user-container">
+            <img src="{{ url_for('static', filename='images/user.png') }}" alt="User Icon" width="70" height="70">
+            <p>Welcome, {{ username }}!</p>  <!-- แสดงชื่อผู้ใช้ที่เข้าสู่ระบบ -->
+            <button id="logoutButton" onclick="location.href='/logout'">Logout</button> <!-- ปุ่ม Logout -->
+        </div>
+    </header>
+    
+    <section id="testing">
+        <img id="startTestButton" src="{{ url_for('static', filename='images/banana (1).png') }}" alt="Start Pentest" width="200" height="200" onclick="startTest()">
+        <p id="testStatus">Please click the image to begin testing.</p>
+        <h2>Welcome to Test Banana</h2>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 IoT Security Team</p>
+    </footer>
+
+</body>
+</html>

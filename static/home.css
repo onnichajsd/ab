@@ -1,0 +1,98 @@
+v /* การตั้งค่าเบื้องต้น */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* การจัดตำแหน่ง header */
+header {
+    background-color: #fad02c;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 70px;
+    height: 70px;
+    margin: 0 10px;
+    border-radius: 50%;
+}
+
+/* กำหนดข้อความใน header */
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* สไตล์สำหรับส่วน Testing */
+#testing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+}
+
+/* สไตล์สำหรับปุ่ม */
+#startTestButton {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#startTestButton:hover {
+    transform: scale(1.1);
+}
+
+/* สไตล์ footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* ปรับ header ให้มีพื้นที่สำหรับปุ่ม Login */
+header {
+    background-color: #fad02c;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ปุ่ม Login + ไอคอนผู้ใช้ */
+#user-container {
+    display: flex;
+    align-items: center;
+}
+
+/* ปุ่ม Login */
+#loginButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 15px; /* ให้ห่างจากไอคอนผู้ใช้ */
+}
+
+#loginButton:hover {
+    background-color: #45a049;
+}
