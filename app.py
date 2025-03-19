@@ -12,6 +12,5 @@ app.register_blueprint(auth)
 def index():
     return render_template('home.html')
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
 
